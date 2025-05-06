@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f8f5f0;
+  color: #1d1d1d;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: #fff;
+  align-items: center;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #1d1d1d;
+}
+
+.hero {
+  text-align: center;
+  padding: 150px 20px;
+  background-size: cover;
+  background-position: center;
+  color: #1d1d1d;
+}
+
+.hero h1 {
+  font-size: 3em;
+  line-height: 1.2;
+  background-color: rgba(255,255,255,0.8);
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background: none;
+  border: 2px solid #1d1d1d;
+  text-decoration: none;
+  color: #1d1d1d;
+  font-weight: bold;
+}
+
+section {
+  padding: 60px 50px;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card {
+  max-width: 300px;
+}
+
+.project-card img {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eae6de;
+}
